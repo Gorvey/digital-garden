@@ -1,0 +1,515 @@
+repo_name: Gorvey/digital-garden
+report_id: 6f9d9f7e7a280b12a16a75fa61cc64cb
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-28T02:13:44+00:00'
+requested_by: Gorvey
+provider: github
+branch: v4
+detected_tools_count: 38
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Gorvey/digital-garden
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Gorvey/digital-garden
+  detection_source: Repo Metadata
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 20.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 10.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Gorvey/digital-garden
+  detection_source: Repo Metadata
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package.json
+  detection_source: package.json
+  last_updated_by: Garvey
+  last_updated_on: 2024-07-19 02:19:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Gorvey/digital-garden
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: "@types/d3"
+  description: TypeScript definitions for d3JS
+  package_url: https://www.npmjs.com/@types/d3
+  version: 7.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17747/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.12.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: "@types/source-map-support"
+  description: TypeScript definitions for source-map-support
+  package_url: https://www.npmjs.com/@types/source-map-support
+  version: 0.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18129/image.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Garvey
+  last_updated_on: 2024-07-19 02:19:58.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 17.0.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: cli-spinner
+  description: A simple spinner
+  package_url: https://www.npmjs.com/cli-spinner
+  version: 0.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17246/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 7.9.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 14.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: gray-matter
+  description: Parse front-matter from a string or file
+  package_url: https://www.npmjs.com/gray-matter
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: pretty-bytes
+  description: 'Convert bytes to a human readable string: 1337 → 1.34 kB'
+  package_url: https://www.npmjs.com/pretty-bytes
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16763/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  version: 15.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: remark-rehype
+  description: Remark plugin that turns markdown into HTML to support rehype
+  package_url: https://www.npmjs.com/remark-rehype
+  version: 11.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 5.0.7
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Garvey
+  last_updated_on: 2024-07-19 02:19:58.000000000 Z
+- name: toml
+  description: TOML parser for Node.js
+  package_url: https://www.npmjs.com/toml
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18079/image.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 4.11.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  version: 10.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Gorvey/digital-garden/blob/v4/package-lock.json
+  detection_source: package.json
+  last_updated_by: Gorvey
+  last_updated_on: 2024-06-17 06:12:28.000000000 Z
